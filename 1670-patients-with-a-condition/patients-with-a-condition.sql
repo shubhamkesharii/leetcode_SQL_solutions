@@ -1,2 +1,1 @@
-SELECT * FROM PATIENTS
-WHERE conditions regexp '^DIAB1| DIAB1';
+select * from patients where conditions like 'DIAB10%' or conditions like '% DIAB10%';
